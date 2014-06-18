@@ -1,0 +1,45 @@
+body,html
+	height 100%
+	width 100%
+	margin 0
+	padding 0
+
+body
+	background-color white
+	transition background-color 500ms ease-in-out
+
+	&.red
+		background-color red
+
+	&.orange
+		background-color orange
+
+	&.yellow
+		background-color yellow
+
+	&.green
+		background-color green
+
+	&.blue
+		background-color blue
+
+	&.purple
+		background-color purple
+
+	&.magenta
+		background-color magenta
+
+.clouds
+	position absolute
+	top 50%
+	left 50%
+	width 2000px
+	height 2000px
+	margin-top -1000px
+	margin-left -1000px
+	opacity .5
+	-webkit-animation rotating 20s linear infinite
+
+	img
+		width 100%
+		height 100%;

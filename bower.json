@@ -1,0 +1,9 @@
+{
+  "name": "Rainbow-Demo",
+  "version": "0.0.1",
+  "main": "public/app.js",
+  "dependencies": {
+    "jquery": "~2.1.1"
+  },
+  "overrides": {}
+}
