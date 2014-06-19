@@ -8,10 +8,11 @@
 	.color
 		cursor pointer
 		opacity .5
-		transition opacity 500ms ease-in-out
-
-		&:hover
-			opacity 1
+		-webkit-animation glowAnimation 2s linear infinite
+		-moz-animation glowAnimation 2s linear infinite
+		-o-animation glowAnimation 2s linear infinite
+		animation glowAnimation 2s linear infinite
+		transform translate3d(0, 0, 0)
 
 	.red
 		position absolute
